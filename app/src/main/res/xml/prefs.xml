@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ <PreferenceCategory
+   android:summary="BT connection"
+   android:title="BT connection" >
+  <EditTextPreference
+     android:key="device"
+     android:summary="Enter the name of the BT device"
+     android:title="BT_device" 
+     android:defaultValue="Meteo"
+     />
+  <EditTextPreference
+     android:key="password"
+     android:summary="Enter the BT password"
+     android:title="Password" 
+     android:defaultValue="1234"
+     />
+ </PreferenceCategory>
+ 
+ <PreferenceCategory
+   android:summary="Engine settings for reverse"
+   android:title="Reverse" >
+  <CheckBoxPreference
+     android:key="reverse"
+     android:summary="On/Off"
+     android:title="Active reverse" 
+     android:defaultValue="false"/>
+  <EditTextPreference
+     android:key="reverseValue"
+     android:summary="Enter the value of reverse"
+     android:title="Value of reverse" 
+     android:defaultValue="120"
+     android:inputType="number"  
+     />
+  </PreferenceCategory>
+
+ <PreferenceCategory
+   android:summary="Settings for angle"
+   android:title="Angle" >
+  <EditTextPreference
+     android:key="minAngle"
+     android:summary="Enter the minimum angle value"
+     android:title="Minimum angle" 
+     android:defaultValue="10" 
+     android:inputType="number" 
+     />
+ </PreferenceCategory>
+ 
+ <PreferenceCategory
+   android:summary="Settings for minimum speed"
+   android:title="Minimum Speed" >
+  <EditTextPreference
+     android:key="minSpeed"
+     android:summary="Enter the minimum speed value"
+     android:title="Minimum speed" 
+     android:defaultValue="110"  
+     android:inputType="number"
+     />
+ </PreferenceCategory>
+ 
+ <PreferenceCategory
+   android:summary="Settings for margin"
+   android:title="Margin value" >
+  <EditTextPreference
+     android:key="margin"
+     android:summary="Enter the value of the margin limits"
+     android:title="Margin limit" 
+     android:defaultValue="10"  
+     android:inputType="number"
+     />
+  
+ </PreferenceCategory>
+ 
+ 
+ 
+ 
+<!--   
+	<ListPreference
+     android:entries="@array/listOptions"
+     android:entryValues="@array/listValues"
+     android:key="listpref"
+     android:summary="List preference example"
+     android:title="List preference" />
+ </PreferenceCategory>
+  -->
+</PreferenceScreen>

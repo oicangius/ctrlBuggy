@@ -1,0 +1,2 @@
+C:\Users\usuario\AndroidstudioProjects\ctrlBuggy\app\build\intermediates\classes\debug
+C:\Users\usuario\AndroidstudioProjects\ctrlBuggy\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-6c3a1626bea4e524e7c05a4c030ea3b04b304662.jar

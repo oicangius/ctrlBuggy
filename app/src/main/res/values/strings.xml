@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ctrlBuggy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="about">About</string>
+	<string name="cutbt">CutBT</string>
+	<string name="bt">BT</string>
+	<string name="config">Config</string>
+</resources>

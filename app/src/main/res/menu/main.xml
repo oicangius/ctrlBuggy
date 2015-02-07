@@ -1,0 +1,37 @@
+
+ 
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.uca.ignacio_garcia.ctrlbuggy.MainActivity" >
+ 
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+    <item
+        android:id="@+id/config"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/config"
+        android:icon="@drawable/ic_menu_preferences"
+        />
+    <item
+        android:id="@+id/bt"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/bt"
+        android:icon="@drawable/ic_volume_bluetooth_in_call"
+        />
+    <item
+        android:id="@+id/cutbt"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/cutbt"
+        android:icon="@drawable/ic_menu_cut"
+        />
+    
+    
+</menu>
+ 
